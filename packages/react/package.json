@@ -1,6 +1,6 @@
 {
-  "name": "@e-chan1007/eslint-config-next",
-  "description": "ESLint settings for Next.js",
+  "name": "@e-chan1007/eslint-config-react",
+  "description": "ESLint settings for React(Next.js)",
   "version": "1.0.0-alpha.0",
   "license": "MIT",
   "author": "e_chan1007 <echan041007@gmail.com> (https://e-chan.me)",
@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/e-chan1007/eslint-config.git",
-    "directory": "packages/next"
+    "directory": "packages/react"
   },
   "dependencies": {
     "@e-chan1007/eslint-config-base": "link:../base"
@@ -17,5 +17,11 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.29.4"
+  }
 }
