@@ -1,7 +1,7 @@
 {
   "name": "@e-chan1007/eslint-config-react",
   "description": "ESLint settings for React(Next.js)",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "license": "MIT",
   "author": "e_chan1007 <echan041007@gmail.com> (https://e-chan.me)",
   "main": "index.js",
