@@ -18,9 +18,15 @@ module.exports = {
     "arrow-spacing": "error",
     "block-spacing": ["error", "always"],
     "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
-    "camelcase": ["warn", { "ignoreImports": false, "properties": "never" }],
+    "camelcase": ["warn", {
+      "ignoreImports": false,
+      "properties": "never"
+    }],
     "comma-dangle": ["error", "never"],
-    "comma-spacing": ["error", { "after": true, "before": false }],
+    "comma-spacing": ["error", {
+      "after": true,
+      "before": false
+    }],
     "comma-style": ["error", "last"],
     "computed-property-spacing": ["error", "never"],
     "curly": ["error", "multi-line", "consistent"],
@@ -35,8 +41,15 @@ module.exports = {
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
     "indent": ["error", 2, { "SwitchCase": 1 }],
-    "key-spacing": ["error", { "afterColon": true, "beforeColon": false, "mode": "strict" }],
-    "keyword-spacing": ["error", { "after": true, "before": true }],
+    "key-spacing": ["error", {
+      "afterColon": true,
+      "beforeColon": false,
+      "mode": "strict"
+    }],
+    "keyword-spacing": ["error", {
+      "after": true,
+      "before": true
+    }],
     "linebreak-style": ["error", "unix"],
     "lines-between-class-members": ["error", "never"],
     "max-len": [
@@ -66,7 +79,10 @@ module.exports = {
     "no-loop-func": "error",
     "no-multi-spaces": "error",
     "no-multi-str": "error",
-    "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 0 }],
+    "no-multiple-empty-lines": ["error", {
+      "max": 3,
+      "maxEOF": 0
+    }],
     "no-nested-ternary": "error",
     "no-new": "off",
     "no-new-func": "error",
@@ -98,10 +114,17 @@ module.exports = {
     "quote-props": ["error", "consistent"],
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
     "semi": ["error", "always"],
-    "semi-spacing": ["error", { "after": true, "before": false }],
+    "semi-spacing": ["error", {
+      "after": true,
+      "before": false
+    }],
     "sort-vars": "error",
     "space-before-blocks": "error",
-    "space-before-function-paren": ["error", { "anonymous": "always", "asyncArrow": "always", "named": "never" }],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "asyncArrow": "always",
+      "named": "never"
+    }],
     "space-in-parens": ["error", "never"],
     "yoda": ["error", "never"]
   }
