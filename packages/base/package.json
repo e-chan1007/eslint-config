@@ -1,7 +1,7 @@
 {
   "name": "@e-chan1007/eslint-config-base",
   "description": "Common settings for ESLint",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "license": "MIT",
   "author": "e_chan1007 <echan041007@gmail.com> (https://e-chan.me)",
   "main": "index.js",
@@ -14,5 +14,15 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8",
+    "typescript": "^4"
+  }
 }
