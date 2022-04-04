@@ -1,0 +1,19 @@
+{
+  "name": "@e-chan1007/eslint-config",
+  "license": "MIT",
+  "author": "e_chan1007 <echan041007@gmail.com> (https://e-chan.me)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-chan1007/eslint-config.git"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "lerna": "^4.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@e-chan1007/eslint-config-base",
+  "description": "Common settings for ESLint",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "e_chan1007 <echan041007@gmail.com> (https://e-chan.me)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-chan1007/eslint-config.git",
+    "directory": "packages/base"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "packageManager": "yarn@3.2.0"
+}
