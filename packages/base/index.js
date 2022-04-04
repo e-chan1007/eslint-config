@@ -88,7 +88,7 @@ module.exports = {
     "no-new-func": "error",
     "no-new-wrappers": "warn",
     "no-param-reassign": ["error", { "props": false }],
-    "no-return-assign": ["error", "always"],
+    "no-return-assign": ["error", "except-parens"],
     "no-self-assign": "error",
     "no-self-compare": "error",
     "no-sequences": "error",
