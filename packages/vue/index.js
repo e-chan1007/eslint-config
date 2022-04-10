@@ -3,7 +3,7 @@ module.exports = {
     "eslint:recommended",
     "@e-chan1007/base",
     "plugin:vue/vue3-essential",
-    "@vue/eslint-config-typescript/recommended"
+    "@vue/typescript/recommended"
   ],
   "rules": { "vue/html-closing-bracket-newline": ["error", { "singleline": "never", "multiline": "never" }] }
 };
