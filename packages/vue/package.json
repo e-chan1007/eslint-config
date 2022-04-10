@@ -11,7 +11,8 @@
     "directory": "packages/vue"
   },
   "dependencies": {
-    "@e-chan1007/eslint-config-base": "link:../base"
+    "@e-chan1007/eslint-config-base": "link:../base",
+    "eslint-plugin-vue": "^8.6.0"
   },
   "devDependencies": {
     "eslint": "^8.13.0",
