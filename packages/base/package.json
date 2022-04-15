@@ -11,9 +11,9 @@
     "directory": "packages/base"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.1.2",
-    "@typescript-eslint/eslint-plugin": "^5.18.0",
-    "@typescript-eslint/parser": "^5.18.0"
+    "@rushstack/eslint-patch": "^1.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0"
   },
   "devDependencies": {
     "eslint": "^8.13.0",
