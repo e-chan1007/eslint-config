@@ -1,7 +1,7 @@
 {
   "name": "@e-chan1007/eslint-config-vue",
   "description": "ESLint settings for Vue3(Nuxt3)",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "author": "e_chan1007 <echan041007@gmail.com> (https://e-chan.me)",
   "main": "index.js",
