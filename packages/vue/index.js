@@ -2,9 +2,9 @@
 module.exports = {
   "extends": [
     "eslint:recommended",
+    "@vue/typescript/recommended",
     "@e-chan1007/base",
-    "plugin:vue/vue3-essential",
-    "@vue/typescript/recommended"
+    "plugin:vue/vue3-essential"
   ],
   "rules": {
     "vue/html-closing-bracket-newline": ["error", { "singleline": "never", "multiline": "never" }],
