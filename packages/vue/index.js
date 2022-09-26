@@ -25,12 +25,14 @@ module.exports = {
           "group": "builtin",
           "position": "before"
         },
-        ...["app", "head", "components", "imports", "build"].map(name => (
-          {
-            "pattern": `#${name}`,
-            "group": "builtin"
-          }
-        ))
+        {
+          "pattern": `{#app, #head, #components, #imports, #build}`,
+          "group": "builtin"
+        },
+        {
+          "pattern": `{#app/**, #head/**, #components/**, #imports/**, #build/**}`,
+          "group": "builtin"
+        }
       ],
       "pathGroupsExcludedImportTypes": ["builtin"],
       "warnOnUnassignedImports": true

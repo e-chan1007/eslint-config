@@ -8,6 +8,7 @@ module.exports = {
   ],
   "rules": {
     "@typescript-eslint/ban-ts-comment": ["warn", { "ts-expect-error": "allow-with-description" }],
+    "@typescript-eslint/consistent-type-imports": ["error", { prefer: "type-imports" }],
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
@@ -45,7 +46,10 @@ module.exports = {
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
     "import/default": "off",
+    "import/namespace": "off",
     "import/no-anonymous-default-export": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
     "import/no-unresolved": "off",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", {
