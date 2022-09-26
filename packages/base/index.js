@@ -2,11 +2,14 @@
 module.exports = {
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript"
   ],
   "rules": {
-    "@typescript-eslint/ban-ts-comment": ["warn", { "ts-ignore": "allow-with-description" }],
+    "@typescript-eslint/ban-ts-comment": ["warn", { "ts-expect-error": "allow-with-description" }],
     "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
@@ -41,6 +44,7 @@ module.exports = {
     "function-call-argument-newline": ["error", "consistent"],
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
+    "import/no-anonymous-default-export": "off",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", {
       "afterColon": true,
