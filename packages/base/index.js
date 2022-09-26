@@ -2,9 +2,9 @@
 module.exports = {
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:import/recommended",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
     "@typescript-eslint/ban-ts-comment": ["warn", { "ts-expect-error": "allow-with-description" }],
@@ -44,7 +44,9 @@ module.exports = {
     "function-call-argument-newline": ["error", "consistent"],
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
+    "import/default": "off",
     "import/no-anonymous-default-export": "off",
+    "import/no-unresolved": "off",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", {
       "afterColon": true,
@@ -72,6 +74,7 @@ module.exports = {
     "new-parens": ["error", "always"],
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 5 }],
     "no-alert": "error",
+    "no-console": "warn",
     "no-constructor-return": "error",
     "no-empty": ["error", { "allowEmptyCatch": true }],
     "no-empty-function": "off",
@@ -84,10 +87,14 @@ module.exports = {
     "no-loop-func": "error",
     "no-multi-spaces": "error",
     "no-multi-str": "error",
-    "no-multiple-empty-lines": ["error", {
-      "max": 3,
-      "maxEOF": 0
-    }],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2,
+        "maxBOF": 0,
+        "maxEOF": 1
+      }
+    ],
     "no-nested-ternary": "error",
     "no-new": "off",
     "no-new-func": "error",
@@ -115,7 +122,7 @@ module.exports = {
     "no-with": "error",
     "nonblock-statement-body-position": "off",
     "object-curly-newline": ["error", { "multiline": true }],
-    "object-curly-spacing": ["error", "always", { "objectsInObjects": false }],
+    "object-curly-spacing": ["error", "always"],
     "quote-props": ["error", "consistent"],
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
     "semi": ["error", "always"],
