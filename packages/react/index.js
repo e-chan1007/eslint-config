@@ -22,6 +22,7 @@ module.exports = {
     }],
     "jsx-quotes": ["error", "prefer-double"],
     "react/jsx-indent": ["error", 2, { checkAttributes: false, indentLogicalExpressions: true }],
+    "react/react-in-jsx-scope": "off",
     "react-hooks/exhaustive-deps": "off"
   }
 };
