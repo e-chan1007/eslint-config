@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
-    "@typescript-eslint/parser": "^5.48.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
     "eslint-plugin-import": "^2.27.5"
   },
   "devDependencies": {
-    "eslint": "^8.32.0",
-    "typescript": "^4.9.4"
+    "eslint": "^8.35.0",
+    "typescript": "^4.9.5"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
