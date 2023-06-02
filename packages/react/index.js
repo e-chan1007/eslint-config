@@ -17,7 +17,7 @@ module.exports = {
           "position": "before"
         }
       ],
-      "pathGroupsExcludedImportTypes": ["react"],
+      "pathGroupsExcludedImportTypes": [],
       "warnOnUnassignedImports": true
     }],
     "jsx-quotes": ["error", "prefer-double"],

@@ -6,6 +6,12 @@ module.exports = {
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended"
   ],
+  "settings": {
+    "import/resolver": {
+      "node": true,
+      "typescript": true
+    }
+  },
   "rules": {
     "@typescript-eslint/ban-ts-comment": ["warn", { "ts-expect-error": "allow-with-description" }],
     "@typescript-eslint/consistent-type-imports": ["error", { prefer: "type-imports" }],
